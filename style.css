@@ -1,0 +1,145 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+}
+
+img {
+  max-width: 100%;        /*MAKES IMAGES RESPONSIVE*/
+  height: auto;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+  padding: 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* Filters
+------------------------------------------*/
+
+.grayscale {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.grayscale:hover {
+  filter: grayscale(0);
+}
+
+.blur {
+  filter: blur(3px);
+  transition: 1s;
+}
+
+.blur:hover {
+  filter: blur(0);
+}
+
+.sepia {
+  filter: sepia(100%);
+  transition: 1s;
+}
+
+.sepia:hover {
+  filter: sepia(0);
+}
+
+.saturate {
+  filter: saturate(8);
+  transition: 1s;
+}
+
+.saturate:hover {
+  filter: saturate(100%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(90deg);
+  transition: 1s;
+}
+
+.hue-rotate:hover {
+  filter: hue-rotate(0deg);
+}
+
+.invert {
+  filter: invert(100%);
+  transition: 1s;
+}
+
+.invert:hover {
+  filter: invert(0%);
+}
+
+.opacity {
+  filter: opacity(20%);
+  transition: 1s;
+}
+
+.opacity:hover {
+  filter: opacity(100%);
+}
+
+.brightness-increase {
+  filter: brightness(200%);
+  transition: 1s;
+}
+
+.brightness-increase:hover {
+  filter: brightness(100%);
+}
+
+.brightness-decrease {
+  filter: brightness(20%);
+  transition: 1s;
+}
+
+.brightness-decrease:hover {
+  filter: brightness(100%);
+}
+
+.contrast {
+  filter: contrast(200%);
+  transition: 1s;
+}
+
+.contrast:hover {
+  filter: contrast(100%);
+}
+
+.drop-shadow {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.9));
+  transition: 1s;
+}
+
+.drop-shadow:hover{
+  filter: none;
+}
