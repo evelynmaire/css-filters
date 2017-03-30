@@ -4,7 +4,7 @@ A short guide on some of the filters available in CSS and the code to implement 
 
 ## Getting Started
 
-Visit the page [here](http://https://evelynmaire.github.io/css-filters/).
+Visit the page [here](http://evelynmaire.github.io/css-filters/).
 
 ## Built With
 
@@ -17,4 +17,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* @mauricevancooten - Web Development tutor
+* [@mauricevancooten](http://github.com/mauricevancooten/) - Web Development tutor
